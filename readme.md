@@ -4,7 +4,7 @@
 
 使用Gym提供的FrozenLake，该环境为光滑的冰面，冰面上有不可穿越的冰洞，智能体需要从左上角走到右下角，在智能体移动时由于冰面光滑会向前进方向的左右随机滑动。
 
-![116lH](.\images\116lH.png)
+![116lH](images/116lH.png)
 
 将光滑属性关闭并扩展地图至8x8，可以模拟迷宫环境。
 
@@ -120,11 +120,11 @@ python .\frozen_lake_dql8x8.py --modelname hhh --epoch 2000 --learning_rate_a 0.
 
 输出训练前后神经网络的权重
 
-![result](.\images\result.png)
+![result](images/result.png)
 
 平均奖励曲线(左)与随机因子减少曲线(右)
 
-![frozen_lake_dql](.\images\frozen_lake_dql.png)
+![frozen_lake_dql](images/frozen_lake_dql.png)
 
 ### 测试过程
 
